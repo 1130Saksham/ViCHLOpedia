@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: rgb(223, 107, 107);
+            width: 100%;
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        .signup-container {
+            width: 350px;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .signup-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .signup-container label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .signup-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .signup-container button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .signup-container button:hover {
+            background-color: #0056b3;
+        }
+
+        .signup-container p {
+            text-align: center;
+            margin-top: 15px;
+            color: #666;
+        }
+
+        .signup-container a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .signup-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <script>
+        function redirectToHomePage(event) {
+            event.preventDefault(); 
+            window.location.href = "home_page.html";
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>ViCLOpedia</h1>
+    </header>
+    <div class="signup-container">
+        <h2>Sign Up Here</h2>
+        <form onsubmit="redirectToHomePage(event)">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Proceed</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </div>
+</body>
+</html>
+

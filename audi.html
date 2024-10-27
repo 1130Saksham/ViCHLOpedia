@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audi Cars - VEHICLOpedia</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: rgb(223, 107, 107);
+            color: rgb(11, 15, 18);
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        header img {
+            width: 200px;
+            height: auto;
+        }
+
+        header h1 {
+            text-align: center;
+            flex-grow: 1;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        .car-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+
+        .car-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+        .car-card {
+            border: 1px solid black;
+            margin: 15px;
+            width: 22%; 
+            text-align: center;
+            padding: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .car-card img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: black;
+            color: antiquewhite;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="image/VEHICLOpedia.jpg" alt="VEHICLOpedia logo">
+    <h1>AUDI CARS</h1>
+    <nav>
+        <ul>
+            <li><a href="about_us.html">About us</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <li><a href="connect_with_us.html">Connect with us</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<div class="car-container">
+    <div class="car-row">
+        <div class="car-card">
+            <img src="https://imgd.aeplcdn.com/227x128/n/cw/ec/28379/q3-exterior-right-front-three-quarter-93481.jpeg?isig=0&q=80" alt="Audi Q3">
+            <h3>Audi Q3</h3>
+            <p>Price: Rs.: 44,25,000</p>
+            <p>Mileage: 14 km/l</p>
+            <p>Engine: 1498 cc</p>
+            <p>Fuel Type: Petrol</p>
+            <p>Transmission: Manual</p>
+            <p><b>5 STAR safety</b></p>
+            <p>For more info: <a href="https://www.carwale.com/audi-cars/q3/">Click here</a> </p>
+        </div>
+        
+        <div class="car-card">
+            <img src="https://imgd.aeplcdn.com/227x128/n/cw/ec/184519/q8-facelift-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80" alt="Audi Q8">
+            <h3>Audi Q8</h3>
+            <p>Price: Rs.: 1,19,00,000</p>
+            <p>Top speed: 250 kmph</p>
+            <p>Engine: 2998 cc</p>
+            <p>Fuel Type: Petrol</p>
+            <p>Acceleration: 5.6 second</p>
+            <p>Max Power: 335 bhp</p>
+            <p>For more info: <a href="https://www.carwale.com/audi-cars/q8/">Click here</a> </p>
+        </div>
+
+        <div class="car-card">
+            <img src="https://imgd.aeplcdn.com/227x128/n/cw/ec/51909/a4-exterior-right-front-three-quarter-2.jpeg?q=80" alt="Audi A4">
+            <h3>Audi A4</h3>
+            <p>Price: Rs.: 47,00,000</p>
+            <p>Mileage: 17 km/l</p>
+            <p>Engine: 1984 cc</p>
+            <p>Fuel Type: Petrol</p>
+            <p>Transmission: Manual and Automatic</p>
+            <p>Max Power: 200 bhp</p>
+            <p>For more info: <a href="https://www.carwale.com/audi-cars/a4/">Click here</a> </p>
+        </div>
+
+        <div class="car-card">
+            <img src="https://imgd.aeplcdn.com/227x128/n/cw/ec/39472/a6-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80" alt="Audi A6">
+            <h3>Audi A6</h3>
+            <p>Price: Rs.: 64,89,000</p>
+            <p>Mileage: 14 km/l</p>
+            <p>Engine: 1984 cc</p>
+            <p>Fuel Type: Petrol</p>
+            <p><b>5 STAR safety</b></p>
+            <p>Max Power: 250 bhp</p>
+            <p>For more info: <a href="https://www.carwale.com/audi-cars/a6/">Click here</a> </p>
+        </div>
+    </div>
+
+    <div class="car-row">
+        <div class="car-card">
+            <img src="https://imgd.aeplcdn.com/227x128/n/cw/ec/51378/s5-sportback-exterior-right-front-three-quarter-5.jpeg?q=80" alt="Audi S5 Sportsback">
+            <h3>Audi S5 Sportsback</h3>
+            <p>Price: Rs.: 78,25,000</p>
+            <p>Mileage: 10 km/l</p>
+            <p>Engine: 2997 cc</p>
+            <p>Top speed: 250 kmph</p>
+            <p>Acceleration: 4.8 second</p>
+            <p>Max Power: 350 bhp</p>
+            <p>For more info: <a href="https://www.carwale.com/audi-cars/s5-sportback/">Click here</a> </p>
+        </div>
+
+        <div class="car-card">
+            <img src="https://imgd.aeplcdn.com/227x128/n/cw/ec/47073/e-tron-gt-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80" alt="Audi e-tron GT">
+            <h3>Audi e-tron GT</h3>
+            <p>Price: Rs.: 1,72,00,000</p>
+            <p>Mileage: 11.5 km/l</p>
+            <p>DriveTrain: AWD</p>
+            <p>Fuel Type: Electric</p>
+            <p>Top Speed: 245 to 250 kmph</p>
+            <p>Acceleration: 3.3 to 4.1 seconds</p>
+            <p>For more info: <a href="https://www.carwale.com/audi-cars/e-tron-gt/">Click here</a> </p>
+        </div>
+
+        <div class="car-card">
+            <img src="https://imgd.aeplcdn.com/227x128/n/cw/ec/124141/a8-l-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80" alt="Audi A8L">
+            <h3>Audi A8 L</h3>
+            <p>Price: Rs.: 1,34,25,000</p>
+            <p>Fuel Type: Hybrid</p>
+            <p>Engine: 2997 cc</p>
+            <p>Top speed: 250 kmph</p>
+            <p>Acceleration: 5.8 second</p>
+            <p>Max Power: 344 bhp</p>
+            <p>For more info: <a href="https://www.carwale.com/audi-cars/a8-l/">Click here</a> </p>
+        </div>
+
+        <div class="car-card">
+            <img src="https://imgd.aeplcdn.com/227x128/n/cw/ec/100073/rs5-exterior-right-front-three-quarter-4.jpeg?isig=0&q=80" alt="Audi RS5">
+            <h3>Audi RS5</h3>
+            <p>Price: Rs.: 1,12,00,000</p>
+            <p>Top speed: 250 kmph</p>
+            <p>Engine: 2894 cc</p>
+            <p>Acceleration: 3.9 seconds</p>
+            <p>Max Power: 444 bhp</p>
+            <p>For more info: <a href="https://www.carwale.com/audi-cars/rs5/">Click here</a> </p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <small>&copy; 2024 @my_project_website</small>
+    <div style="margin-top: 20px;">
+        <button onclick="window.location.href='home_page.html';" style="padding: 10px 20px; font-size: 18px; background-color: #1b82f1; color: white; border: none; border-radius: 5px; cursor: pointer;">
+            Go Back to Home
+        </button>
+    </div>
+</footer>
+
+</body>
+</html>
